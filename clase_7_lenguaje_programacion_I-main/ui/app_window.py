@@ -20,7 +20,6 @@ class AppWindow(tk.Tk):
 
     def create_widgets(self):
 
-        # Título
         ttk.Label(
             self,
             text="Registro de Usuarios",
@@ -33,7 +32,6 @@ class AppWindow(tk.Tk):
             pady=(20, 15)
         )
 
-        # Nombre
         ttk.Label(
             self,
             text="Nombre:"
@@ -54,7 +52,6 @@ class AppWindow(tk.Tk):
             sticky="w"
         )
 
-        # Apellido
         ttk.Label(
             self,
             text="Apellido:"
@@ -75,7 +72,6 @@ class AppWindow(tk.Tk):
             sticky="w"
         )
 
-        # Edad
         ttk.Label(
             self,
             text="Edad:"
@@ -96,7 +92,6 @@ class AppWindow(tk.Tk):
             sticky="w"
         )
 
-        # Correo
         ttk.Label(
             self,
             text="Correo:"
@@ -116,8 +111,7 @@ class AppWindow(tk.Tk):
             pady=10,
             sticky="w"
         )
-
-        # Botón
+        
         ttk.Button(
             self,
             text="Ingresar usuario",
@@ -130,7 +124,6 @@ class AppWindow(tk.Tk):
             pady=20
         )
 
-        # Tabla
         self.tree = ttk.Treeview(
             self,
             columns=("fname", "lname", "age", "email"),

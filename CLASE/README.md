@@ -26,5 +26,5 @@ python main.py
 ## Datos del estudiante
 
 Nombre: Daniel Stephano Garrido Pache  
-Matrícula: ____________________  
+Matrícula: __LR-2025-03708______  
 Asignatura: Lenguaje de Programación I
